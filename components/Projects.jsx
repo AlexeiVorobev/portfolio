@@ -29,7 +29,7 @@ const Projects = () => {
             title="Personal website"
             desc="NextJS + TailwindCSS"
             img={personal}
-            url="/"
+            url="/personal"
           />
         </div>
       </div>
