@@ -19,7 +19,7 @@ const personal = () => {
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] z-10 text-white px-2">
             <h2 className="py-2">Personal Website</h2>
-            <h3 className="">NextJS / Tailwind</h3>
+            <h3 className="">Next JS / Tailwind CSS</h3>
           </div>
         </div>
       </div>
@@ -31,8 +31,7 @@ const personal = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quia, maxime adipisci aliquam, neque molestias asperiores officia omnis earum cum fugiat deleniti quam facilis pariatur tempora sed! Ipsa saepe quidem fugiat ducimus autem necessitatibus nemo accusamus, iure itaque, temporibus accusantium, modi commodi! Laudantium exercitationem asperiores aut est debitis maiores cumque, totam autem neque molestiae nulla reiciendis consectetur, nostrum tempore consequatur rem, perferendis ipsum. Impedit, voluptas eligendi? Provident odit, qui molestias nihil, recusandae soluta amet quas neque deserunt impedit ipsum in aperiam nobis corporis, ipsam repellat asperiores perspiciatis molestiae voluptatem quam dolorum! Quis sed quo facere quaerat corrupti amet dolorem maiores?
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a target="_blank" href="https://github.com/alexthetaffer/personal-website"><button className="px-8 py-2 mt-4 mr-8">Code</button></a>
         </div>
 
         <div className="col-span-4 md:col-span-1 shadow-md shadow-gray-400 rounded-xl p-4">

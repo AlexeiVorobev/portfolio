@@ -29,10 +29,25 @@ const days = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quia, maxime adipisci aliquam, neque molestias asperiores officia omnis earum cum fugiat deleniti quam facilis pariatur tempora sed! Ipsa saepe quidem fugiat ducimus autem necessitatibus nemo accusamus, iure itaque, temporibus accusantium, modi commodi! Laudantium exercitationem asperiores aut est debitis maiores cumque, totam autem neque molestiae nulla reiciendis consectetur, nostrum tempore consequatur rem, perferendis ipsum. Impedit, voluptas eligendi? Provident odit, qui molestias nihil, recusandae soluta amet quas neque deserunt impedit ipsum in aperiam nobis corporis, ipsam repellat asperiores perspiciatis molestiae voluptatem quam dolorum! Quis sed quo facere quaerat corrupti amet dolorem maiores?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            quia, maxime adipisci aliquam, neque molestias asperiores officia
+            omnis earum cum fugiat deleniti quam facilis pariatur tempora sed!
+            Ipsa saepe quidem fugiat ducimus autem necessitatibus nemo
+            accusamus, iure itaque, temporibus accusantium, modi commodi!
+            Laudantium exercitationem asperiores aut est debitis maiores cumque,
+            totam autem neque molestiae nulla reiciendis consectetur, nostrum
+            tempore consequatur rem, perferendis ipsum. Impedit, voluptas
+            eligendi? Provident odit, qui molestias nihil, recusandae soluta
+            amet quas neque deserunt impedit ipsum in aperiam nobis corporis,
+            ipsam repellat asperiores perspiciatis molestiae voluptatem quam
+            dolorum! Quis sed quo facere quaerat corrupti amet dolorem maiores?
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a target="_blank" href="https://alexthetaffer.github.io/alex-store/">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a target="_blank" href="https://github.com/alexthetaffer/alex-store">
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
 
         <div className="col-span-4 md:col-span-1 shadow-md shadow-gray-400 rounded-xl p-4">
@@ -60,15 +75,16 @@ const days = () => {
               <RiRadioButtonFill className="mr-1" />
               Styled Components
             </p>
-            
+
             <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="mr-1" />
               Redux Toolkit
             </p>
           </div>
-          
         </div>
-        <Link href='/#projects'><p className="underline cursor-pointer">Back</p></Link>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
+        </Link>
       </div>
     </div>
   );

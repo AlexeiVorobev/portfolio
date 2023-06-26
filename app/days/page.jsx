@@ -34,8 +34,8 @@ const days = () => {
             adding tags to the notes, and has a simple and clean UI. The backend
             is hosted on render.com
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a target="_blank" href="https://alexthetaffer.github.io/days/"><button className="px-8 py-2 mt-4 mr-8">Demo</button></a>
+          <a target="_blank" href="https://github.com/alexthetaffer/days"><button className="px-8 py-2 mt-4">Code</button></a>
         </div>
 
         <div className="col-span-4 md:col-span-1 shadow-md shadow-gray-400 rounded-xl p-4">
