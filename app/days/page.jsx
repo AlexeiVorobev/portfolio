@@ -17,7 +17,7 @@ const days = () => {
             fill
             alt="/"
           />
-          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] z-10 text-white">
+          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] z-10 text-white px-2">
             <h2 className="py-2">Days: Journaling App</h2>
             <h3 className="">ReactJS / ExpressJS / MongoDB</h3>
           </div>
@@ -59,15 +59,16 @@ const days = () => {
               <RiRadioButtonFill className="mr-1" />
               MongoDB
             </p>
-            
+
             <p className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="mr-1" />
               Redux Toolkit
             </p>
           </div>
-          
         </div>
-        <Link href='/#projects'><p className="underline cursor-pointer">Back</p></Link>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
+        </Link>
       </div>
     </div>
   );

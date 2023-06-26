@@ -17,7 +17,7 @@ const days = () => {
             fill
             alt="/"
           />
-          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] z-10 text-white">
+          <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] z-10 text-white px-2">
             <h2 className="py-2">Fashion Store</h2>
             <h3 className="">ReactJS / ExpressJS / MongoDB</h3>
           </div>
