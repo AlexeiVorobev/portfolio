@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -11,33 +11,45 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false)
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >=90) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+    }
+    window.addEventListener('scroll', handleShadow)
+  }, [])
+
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] px-3">
+    <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100] px-3" : "fixed w-full h-20 z-[100] px-3"}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div>ALEX</div>
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm border-b border-[gray] border-opacity-0 uppercase hover:border-opacity-50">Home</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">About</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">Skills</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 Contact
               </li>
             </Link>
