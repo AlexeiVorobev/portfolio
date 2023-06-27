@@ -1,12 +1,18 @@
 import React from "react";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
+import profileImg from '@/public/assets/profile.jpg'
+import Image from "next/image";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
+          <div class="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
+            <Image className="" src={profileImg} />
+          </div>
+
           <p className="uppercase text-sm tracking-widest text-gray-600">
             Let's build something together
           </p>

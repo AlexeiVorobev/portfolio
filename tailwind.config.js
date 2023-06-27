@@ -6,6 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      'custom-mono': ['Overpass Mono', 'monospace']
+    },
     extend: {},
   },
   plugins: [],
