@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
   };
 
    // Get the stored language from local storage
-   const storedLanguage = localStorage.getItem("i18nextLng") || 'ru';
+   const storedLanguage = localStorage.getItem("i18nextLng").substring(0,2) || 'ru';
   return (
     <div>
       <select
