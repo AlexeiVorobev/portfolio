@@ -1,0 +1,22 @@
+{
+  "app_title": "i18n News Reader",
+  "active_locale": "Русский",
+  "navbar": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "contact": "Связаться",
+    "cta_1": ""
+  },
+  "hero": {
+    "photo_sub": "Создадим что-нибудь вместе",
+    "hello_1": "Меня зовут",
+    "name": "Алексей",
+    "hello_2": "Я Full-Stack Веб Разработчик",
+    "p": "I'm a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
+
+  },
+  "button_label": "Read More",
+  "homepage_nav_link_label": "Go Back"
+}

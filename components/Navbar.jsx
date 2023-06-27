@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import LanguageSwitcher from "./LanguageSwitcher";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslation } from 'react-i18next';
+
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -11,6 +13,7 @@ import {
 import { BsFillPersonFill } from "react-icons/bs";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const path = usePathname();
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -18,11 +21,7 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState("#1f2937");
 
   useEffect(() => {
-    if (
-      path === "/days" ||
-      path === "/personal" ||
-      path === "/store"
-    ) {
+    if (path === "/days" || path === "/personal" || path === "/store") {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {
@@ -44,12 +43,11 @@ const Navbar = () => {
       }
     };
     window.addEventListener("scroll", handleShadow);
-    
   }, []);
 
   return (
     <div
-    style={{backgroundColor: navBg}}
+      style={{ backgroundColor: navBg }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100] px-3"
@@ -57,36 +55,37 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
-          <div
-          className="text-[#5651e5] font-bold"
-          >ALEX</div>
-        </Link>
+        <div className="flex gap-4">
+          <Link href="/">
+            <div className="text-[#5651e5] font-bold">ALEX</div>
+          </Link>
+            <LanguageSwitcher />
+        </div>
         <div>
-          <ul style={{color: linkColor}} className="hidden md:flex">
+          <ul style={{ color: linkColor }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm border-b border-[gray] border-opacity-0 uppercase hover:border-opacity-50">
-                Home
+                {t("navbar.home")}
               </li>
             </Link>
             <Link href="/#about">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
-                About
+              {t("navbar.about")}
               </li>
             </Link>
             <Link href="/#skills">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
-                Skills
+              {t("navbar.skills")}
               </li>
             </Link>
             <Link href="/#projects">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
-                Projects
+              {t("navbar.projects")}
               </li>
             </Link>
             <Link href="/#contact">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
-                Contact
+              {t("navbar.contact")}
               </li>
             </Link>
           </ul>
@@ -129,7 +128,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something legendary together
+                {t("navbar.cta_1")}
               </p>
             </div>
           </div>
@@ -137,27 +136,27 @@ const Navbar = () => {
             <ul className="uppercase">
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Home
+                {t("navbar.home")}
                 </li>
               </Link>
               <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  About
+                {t("navbar.about")}
                 </li>
               </Link>
               <Link href="/#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Skills
+                {t("navbar.skills")}
                 </li>
               </Link>
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
+                {t("navbar.projects")}
                 </li>
               </Link>
               <Link href="/#contacts">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Contact
+                {t("navbar.contact")}
                 </li>
               </Link>
             </ul>
