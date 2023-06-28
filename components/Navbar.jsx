@@ -67,27 +67,27 @@ const Navbar = () => {
         </div>
         <div>
           <ul style={{ color: linkColor }} className="hidden md:flex">
-            <Link passHref href="/">
+            <Link passHref href="#">
               <li className="ml-10 text-sm border-b border-[gray] border-opacity-0 uppercase hover:border-opacity-50">
                 {t("navbar.home")}
               </li>
             </Link>
-            <Link passHref href="/#about">
+            <Link passHref href="#about">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.about")}
               </li>
             </Link>
-            <Link passHref href="/#skills">
+            <Link passHref href="#skills">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.skills")}
               </li>
             </Link>
-            <Link passHref href="/#projects">
+            <Link passHref href="#projects">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.projects")}
               </li>
             </Link>
-            <Link passHref href="/#contact">
+            <Link passHref href="#contact">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
