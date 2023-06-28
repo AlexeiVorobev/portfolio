@@ -1,7 +1,8 @@
+"use client"
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const LanguageSwitcher = () => {
+const LanguageSwitcher = ({color}) => {
   const { t, i18n } = useTranslation();
   const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang);
@@ -13,6 +14,7 @@ const LanguageSwitcher = () => {
   return (
     <div>
       <select
+      style={{color: color}}
       value={storedLanguage}
         className="bg-transparent"
         onChange={(e) => {

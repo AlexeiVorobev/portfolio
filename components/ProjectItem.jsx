@@ -11,7 +11,7 @@ const projectItem = (props) => {
           {props.title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{props.desc}</p>
-        <Link href={props.url}>
+        <Link passHref href={props.url}>
           <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg">
             More Info
           </p>
