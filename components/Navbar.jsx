@@ -82,16 +82,16 @@ const Navbar = () => {
                 {t("navbar.skills")}
               </li>
             </Link>
-            <Link passHref href="/#projects">
+            <a href="#projects">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.projects")}
               </li>
-            </Link>
-            <Link passHref href="/personal-website/#contacts">
+            </a>
+            <a  href="personal-website/#contacts">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
-            </Link>
+            </a>
           </ul>
 
           <div onClick={handleNav} className="md:hidden cursor-pointer">
