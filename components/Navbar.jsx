@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Link from "next/link";
