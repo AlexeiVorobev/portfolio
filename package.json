@@ -1,7 +1,6 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://alexthetaffer.github.io/personal-website",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +12,6 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
-    "eslint": "8.43.0",
     "eslint-config-next": "^12.0.4",
     "fix": "^0.0.6",
     "i18next": "^23.2.3",
