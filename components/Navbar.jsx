@@ -82,12 +82,12 @@ const Navbar = () => {
                 {t("navbar.skills")}
               </li>
             </Link>
-            <Link passHref href="#projects">
+            <Link passHref href="/#projects">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.projects")}
               </li>
             </Link>
-            <Link passHref href="#contact">
+            <Link passHref href="/personal-website/#contacts">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
