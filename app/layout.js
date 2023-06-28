@@ -7,10 +7,10 @@ import { Suspense } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Alex | Full-Stack developer',
-  description: 'My personal website',
-}
+// export const metadata = {
+//   title: 'Alex | Full-Stack developer',
+//   description: 'My personal website',
+// }
 
 
 
