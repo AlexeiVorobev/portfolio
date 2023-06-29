@@ -87,7 +87,7 @@ const Navbar = () => {
                 {t("navbar.projects")}
               </li>
             </a>
-            <a  href="portfolio/#contacts">
+            <a  href="/portfolio/#contacts">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
