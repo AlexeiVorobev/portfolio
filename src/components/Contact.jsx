@@ -1,10 +1,8 @@
 import React from "react";
-import contactImg from "../public/assets/contact.jpg";
-import Image from "next/image";
+import contactImg from "../assets/contact.jpg";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
-import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -19,7 +17,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image
+                <img
                   className="hover:scale-105 ease-in duration-300"
                   src={contactImg}
                   alt=""
@@ -108,11 +106,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href="/">
+          <a href="/">
             <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="m-auto text-[#5651e5]" size={30} />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

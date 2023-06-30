@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -25,9 +24,9 @@ const About = () => {
             technologies like HTML, CSS, and JavaScript to back-end frameworks
             like Node.js and Django, I've dived deep into the world of
             full-stack development.</p>
-          <Link href='/#projects'>
+          <a href='/#projects'>
             <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
-          </Link>
+          </a>
         </div>
         <div className="w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
             <img className="" src="https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_yO9RrR6SnCrwhNbe-2173-NOC.jpg?itok=cHyyR9-8" alt="" />

@@ -1,18 +1,17 @@
 import React from "react";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
-import profileImg from '@/public/assets/profile.jpg'
-import Image from "next/image";
+import profileImg from '../assets/profile.jpg'
 import { useTranslation } from "react-i18next";
 
-const Main = () => {
+const Hero = () => {
   const {t} = useTranslation()
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4">
-            <Image alt="Profile picture" className="" src={profileImg} />
+            <img alt="Profile picture" className="" src={profileImg} />
           </div>
 
           <p className="uppercase text-sm tracking-widest text-gray-600">
@@ -42,4 +41,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Hero;

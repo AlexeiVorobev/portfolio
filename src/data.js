@@ -1,3 +1,4 @@
+import cssImg from './assets/skills/css.png'
 
 export const skills = [
     {
