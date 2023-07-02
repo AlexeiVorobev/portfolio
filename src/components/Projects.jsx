@@ -17,19 +17,22 @@ const Projects = () => {
             title="Journaling App"
             desc="React + Express"
             img={daysImg}
-            url="/days"
+            demo="https://alexeivorobev.github.io/days"
+            github="https://github.com/alexeivorobev/days"
           />
           <ProjectItem
-            title="Fashion store"
+            title="Fashion Store"
             desc="React + Express"
             img={storeImg}
-            url="/store"
+            demo="https://alexeivorobev.github.io/alex-store"
+            github="https://github.com/alexeivorobev/alex-store"
           />
            <ProjectItem
-            title="Personal website"
-            desc="NextJS + TailwindCSS"
+            title="Personal Website"
+            desc="React + Tailwind CSS"
             img={personal}
-            url="/personal"
+            demo="https://alexeivorobev.github.io/portfolio"
+            github="https://github.com/alexeivorobev/portfolio"
           />
         </div>
       </div>

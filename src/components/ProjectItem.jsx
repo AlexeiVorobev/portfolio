@@ -8,11 +8,18 @@ const projectItem = (props) => {
           {props.title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{props.desc}</p>
-        <a href={props.url}>
-          <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg">
-            More Info
-          </p>
-        </a>
+        <div className="flex gap-4 justify-center">
+          <a href={props.demo} target="_blank">
+            <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg w-[100px] hover:bg-gray-100">
+              Demo
+            </p>
+          </a>
+          <a href={props.github} target="_blank">
+            <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg w-[100px] hover:bg-gray-100">
+              Code
+            </p>
+          </a>
+        </div>
       </div>
     </div>
   );
