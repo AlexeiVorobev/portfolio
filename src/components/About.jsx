@@ -24,7 +24,7 @@ const About = () => {
             technologies like HTML, CSS, and JavaScript to back-end frameworks
             like Node.js and Django, I've dived deep into the world of
             full-stack development.</p>
-          <a href='/#projects'>
+          <a href='#projects'>
             <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
           </a>
         </div>

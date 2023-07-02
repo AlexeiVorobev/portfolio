@@ -41,7 +41,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="flex gap-4 items-center">
-          <a href="/">
+          <a href="#">
             <div className="text-lg">
               <span className="text-[#5651e5] font-bold">Alex</span>
               <span className="font-bold text-gray-600">Dev</span>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 {t("navbar.home")}
               </li>
             </a>
-            <a href="/#about">
+            <a href="#about">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.about")}
               </li>
@@ -66,12 +66,12 @@ const Navbar = () => {
                 {t("navbar.skills")}
               </li>
             </a>
-            <a href="/portfolio/#projects">
+            <a href="#projects">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.projects")}
               </li>
             </a>
-            <a  href="/portfolio/#contacts">
+            <a  href="#contact">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
@@ -104,7 +104,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <a href="/">
+              <a href="#">
                 <div onClick={() => setNav(false)}>ALEX</div>
               </a>
               <div
@@ -120,27 +120,27 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <a href="/">
+              <a href="#">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {t("navbar.home")}
                 </li>
               </a>
-              <a href="/#about">
+              <a href="#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {t("navbar.about")}
                 </li>
               </a>
-              <a href="/#skills">
+              <a href="#skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {t("navbar.skills")}
                 </li>
               </a>
-              <a href="/#projects">
+              <a href="#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {t("navbar.projects")}
                 </li>
               </a>
-              <a href="/#contacts">
+              <a href="#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {t("navbar.contact")}
                 </li>
