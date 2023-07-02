@@ -30,5 +30,5 @@ li {
 }
 
 button {
-  @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white transition-all hover:scale-105;
+  @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white transition-all hover:font-semibold
 }

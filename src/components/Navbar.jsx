@@ -8,6 +8,7 @@ import {
   AiOutlineClose,
   AiFillGithub,
   AiFillMail,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
 
@@ -152,8 +153,13 @@ const Navbar = () => {
               </p>
 
               <div className="flex items-center justify-start gap-4 my-4 w-full sm:w-[80%]">
+                <a href="https://github.com/AlexeiVorobev" target="_blank">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillGithub />
+                  </div>
+                </a>
                 <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillGithub />
+                  <AiFillLinkedin />
                 </div>
                 <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiFillMail />

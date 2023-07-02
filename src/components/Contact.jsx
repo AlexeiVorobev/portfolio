@@ -1,6 +1,6 @@
 import React from "react";
 import contactImg from "../assets/contact.jpg";
-import { AiFillGithub, AiFillMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { BsFillPersonFill } from "react-icons/bs";
 
@@ -32,14 +32,19 @@ const Contact = () => {
                 </p>
               </div>
               <p className="uppercase pt-8">Connect With Me</p>
-              <div className="flex items-center justify-start gap-6 py-4">
-                <div className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <AiFillGithub />
+              <div className="flex items-center justify-start gap-4 py-4">
+                <a href="https://github.com/AlexeiVorobev" target="_blank">
+                  <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <AiFillGithub />
+                  </div>
+                </a>
+                <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <AiFillLinkedin />
                 </div>
-                <div className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                   <AiFillMail />
                 </div>
-                <div className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                   <BsFillPersonFill />
                 </div>
               </div>
