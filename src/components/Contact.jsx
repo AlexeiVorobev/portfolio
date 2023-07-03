@@ -27,12 +27,12 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">{t("contact.name")}</h2>
-                <p>{t("contact.position")}</p>
+                <p className="italic text-sm">{t("contact.position")}</p>
                 <p className="py-4">
                   {t("contact.p")}
                 </p>
               </div>
-              <p className="uppercase pt-8">{t("contact.sub")}</p>
+              <p className="uppercase pt-8 text-[#5651e5]">{t("contact.sub")}</p>
               <div className="flex items-center justify-start gap-4 py-4">
                 <a href="https://github.com/AlexeiVorobev" target="_blank">
                   <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">

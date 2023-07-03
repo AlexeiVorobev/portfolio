@@ -7,25 +7,43 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact",
+    "contact": "Contacts",
     "cta_1": "Let's build something legendary together"
   },
   "hero": {
-    "photo_sub": "Let's build something together",
+    "photo_sub": "Let's build something legendary",
     "hello_1": "Hi, I'm",
     "name": "Alex",
     "hello_2": "A Full-stack Web Developer",
     "p": "I'm a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
   },
   "about": {
-    "h_1": "Кто я такой",
-    "sub_1": "Добро пожаловать на мой сайт!",
-    "p_1": "Меня зовут Алексей, я люблю создавать красивые и функциональные веб-приложения! Я специализируюсь на Front-End, но также способен делать бэкенд Уверенно владею HTML, CSS и JavaScript, а также популярными фремворками, такими как React и Redux.",
-    "p_2": "Также я имею необходимые навыки для работы с бэкенд-технологиями, такими как Node.js, Express и базами данных, что позволяет мне создавать полноценные приложения от начала до конца. Я постоянно обучаюсь и в своих проектах стремлюсь использовать наиболее современные технологии.",
-    "p_3": "Готов к коммуникации на английском языке.",
-    "checkout": "Check out some of my latest projects"
+    "h_1": "Who I Am",
+    "sub_1": "Welcome to my website!",
+    "p_1": "My name is Alex, and I enjoy creating beautiful and functional web applications! I specialize in Front-End development but I'm also capable of working on the Back-End. I'm proficient in HTML, CSS, and JavaScript, as well as popular frameworks like React and Redux.",
+    "p_2": "I also have the necessary skills to work with back-end technologies such as Node.js, Express, and databases, which allows me to create full-stack applications from start to finish. I am constantly learning and strive to use the most modern technologies in my projects.",
+    "p_3": "",
+    "checkout": "Checkout my latest projects"
   },
   "skills": {
     "h": "What I Can Do"
+  },
+  "projects": {
+    "h":"What I've Built"
+  },
+  "contact": {
+    "h_1": "Let's Connect",
+    "name": "Alex",
+    "position": "Full-Stack Developer, Front-End Developer",
+    "p": "I'm open for new positions. Contact me and let's talk.",
+    "sub": "Connect with me"
+  },
+  "form": {
+    "name": "Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "button": "Send"
   }
 }
