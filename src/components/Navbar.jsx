@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
@@ -72,7 +71,7 @@ const Navbar = () => {
                 {t("navbar.projects")}
               </li>
             </a>
-            <a  href="#contact">
+            <a href="#contact">
               <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
@@ -106,7 +105,10 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <a href="#">
-                <div onClick={() => setNav(false)}>ALEX</div>
+                <div onClick={() => setNav(false)} className="text-lg">
+                  <span className="text-[#5651e5] font-bold">Alex</span>
+                  <span className="font-bold text-gray-600">Dev</span>
+                </div>
               </a>
               <div
                 onClick={handleNav}
@@ -149,7 +151,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-40 ">
               <p className="uppercase tracking-widest text-[#5651e5]">
-              {t("navbar.connect")}
+                {t("navbar.connect")}
               </p>
 
               <div className="flex items-center justify-start gap-4 my-4 w-full sm:w-[80%]">
