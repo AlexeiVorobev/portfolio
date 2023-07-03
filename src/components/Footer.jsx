@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <Footer className="bg-gray-800 py-8">
+    <div className="bg-gray-800 py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="text-white">
@@ -40,7 +40,7 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
         </div>
       </div>
-    </Footer>
+    </div>
   );
 };
 
