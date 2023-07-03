@@ -25,6 +25,8 @@
     "p_3": "Готов к коммуникации на английском языке.",
     "checkout": "Смотреть последние проекты"
   },
-  "button_label": "Read More",
-  "homepage_nav_link_label": "Go Back"
+  "skills": {
+    "h": "Что я могу"
+  }
+  
 }
