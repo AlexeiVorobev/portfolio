@@ -2,7 +2,8 @@ import React from "react";
 import daysImg from "../assets/projects/days.jpg";
 import ProjectItem from "./ProjectItem";
 import storeImg from "../assets/projects/alex-store.jpg";
-import personal from "../assets/projects/personal-website.jpg";
+import personalImg from "../assets/projects/personal-website.jpg";
+import doersImg from "../assets/projects/doers.jpg"
 
 const Projects = () => {
   return (
@@ -14,14 +15,14 @@ const Projects = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Journaling App"
+            title="Days: Journaling App"
             desc="React + Express"
             img={daysImg}
             demo="https://alexeivorobev.github.io/days"
             github="https://github.com/alexeivorobev/days"
           />
           <ProjectItem
-            title="Fashion Store"
+            title="Alex: Fashion Store"
             desc="React + Express"
             img={storeImg}
             demo="https://alexeivorobev.github.io/alex-store"
@@ -30,9 +31,16 @@ const Projects = () => {
            <ProjectItem
             title="Personal Website"
             desc="React + Tailwind CSS"
-            img={personal}
+            img={personalImg}
             demo="https://alexeivorobev.github.io/portfolio"
             github="https://github.com/alexeivorobev/portfolio"
+          />
+           <ProjectItem
+            title="Doers: Todo App"
+            desc="JavaScript + CSS"
+            img={doersImg}
+            demo="https://alexeivorobev.github.io/doers/dist/"
+            github="https://github.com/alexeivorobev/doers"
           />
         </div>
       </div>
