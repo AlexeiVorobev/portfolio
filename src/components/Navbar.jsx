@@ -149,7 +149,7 @@ const Navbar = () => {
             </ul>
             <div className="pt-40 ">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Let&apos;s connect
+              {t("navbar.connect")}
               </p>
 
               <div className="flex items-center justify-start gap-4 my-4 w-full sm:w-[80%]">

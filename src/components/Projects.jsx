@@ -4,15 +4,17 @@ import ProjectItem from "./ProjectItem";
 import storeImg from "../assets/projects/alex-store.jpg";
 import personalImg from "../assets/projects/personal-website.jpg";
 import doersImg from "../assets/projects/doers.jpg"
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-          Projects
+          {t("navbar.projects")}
         </p>
-        <h2 className="py-4">What I've Built</h2>
+        <h2 className="py-4">{t("projects.h")}</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Days: Journaling App"
