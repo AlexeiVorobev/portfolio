@@ -21,13 +21,13 @@ const LanguageSwitcher = () => {
     <div>
       <select
       value={storedLanguage}
-        className="bg-transparent"
+        className="bg-transparent cursor-pointer"
         onChange={(e) => {
           handleChangeLanguage(e.target.value);
         }}
       >
-        <option value="en">EN</option>
-        <option value="ru">RU</option>
+        <option className="cursor-pointer" value="en">EN</option>
+        <option className="cursor-pointer" value="ru">RU</option>
       </select>
     </div>
   );
