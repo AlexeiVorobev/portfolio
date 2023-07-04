@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
   scroll-behavior: smooth !important;
+}
+
+* {
+  @apply font-custom-body;
 }
 
 @layer base {
@@ -13,22 +18,33 @@ html {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply font-bold
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
 }
 
 h1 {
-  @apply text-4xl sm:text-5xl md:text-6xl
+  @apply text-4xl sm:text-5xl md:text-6xl;
 }
 
 h2 {
-  @apply text-3xl sm:text-4xl
+  @apply text-3xl sm:text-4xl;
 }
 
 li {
-  @apply cursor-pointer
+  @apply cursor-pointer;
 }
 
 button {
-  @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white transition-all hover:font-semibold
+  @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white transition-all hover:font-semibold;
+}
+
+@layer utilities {
+  .font-custom-body {
+    font-family: "montserrat", sans-serif;
+  }
 }

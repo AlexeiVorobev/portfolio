@@ -26,8 +26,8 @@ const LanguageSwitcher = () => {
           handleChangeLanguage(e.target.value);
         }}
       >
-        <option className="cursor-pointer" value="en">EN</option>
-        <option className="cursor-pointer" value="ru">RU</option>
+        <option value="en">EN</option>
+        <option value="ru">RU</option>
       </select>
     </div>
   );
