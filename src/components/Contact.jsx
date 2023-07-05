@@ -28,11 +28,11 @@ const Contact = () => {
               <div>
                 <h2 className="py-2">{t("contact.name")}</h2>
                 <p className="italic text-sm">{t("contact.position")}</p>
-                <p className="py-4">
-                  {t("contact.p")}
-                </p>
+                <p className="py-4">{t("contact.p")}</p>
               </div>
-              <p className="uppercase pt-8 text-[#5651e5]">{t("contact.sub")}</p>
+              <p className="uppercase pt-8 text-[#5651e5]">
+                {t("contact.sub")}
+              </p>
               <div className="flex items-center justify-start gap-4 py-4">
                 <a href="https://github.com/AlexeiVorobev" target="_blank">
                   <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -55,57 +55,69 @@ const Contact = () => {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form
+                method="POST"
+                action="https://getform.io/f/e984cfc4-e017-4711-9b3b-1a41a0b3967b"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppecase text-sm py-2">{t("form.name")}</label>
+                    <label className="uppecase text-sm py-2">
+                      {t("form.name")}
+                    </label>
                     <input
+                      name="name"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
-                      name=""
                       id=""
                     />
                   </div>
                   <div className="flex flex-col">
                     <label className="uppecase text-sm py-2">
-                    {t("form.phone")}
+                      {t("form.phone")}
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
-                      name=""
+                      name="phone"
                       id=""
                     />
                   </div>
                 </div>
 
                 <div className="flex flex-col py-2">
-                  <label className="uppecase text-sm py-2">{t("form.email")}</label>
+                  <label className="uppecase text-sm py-2">
+                    {t("form.email")}
+                  </label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
-                    name=""
+                    name="email"
                     id=""
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppecase text-sm py-2">{t("form.subject")}</label>
+                  <label className="uppecase text-sm py-2">
+                    {t("form.subject")}
+                  </label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
-                    name=""
+                    name="subject"
                     id=""
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppecase text-sm py-2">{t("form.message")}</label>
+                  <label className="uppecase text-sm py-2">
+                    {t("form.message")}
+                  </label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
+                    name="text"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
-                {t("form.button")}
+                  {t("form.button")}
                 </button>
               </form>
             </div>
@@ -114,7 +126,10 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <a href="#">
             <div className="rounded-full shadow-md shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="m-auto text-[#5651e5]" size={30} />
+              <HiOutlineChevronDoubleUp
+                className="m-auto text-[#5651e5]"
+                size={30}
+              />
             </div>
           </a>
         </div>
