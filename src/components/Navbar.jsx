@@ -57,22 +57,22 @@ const Navbar = () => {
               </li>
             </a>
             <a href="#about">
-              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.about")}
               </li>
             </a>
             <a href="#skills">
-              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.skills")}
               </li>
             </a>
             <a href="#projects">
-              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.projects")}
               </li>
             </a>
             <a href="#contact">
-              <li className="ml-10 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
                 {t("navbar.contact")}
               </li>
             </a>
