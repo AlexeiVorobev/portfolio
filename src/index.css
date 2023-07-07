@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
   scroll-behavior: smooth !important;
@@ -14,7 +14,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+    @apply bg-[#121212] text-gray-200 tracking-wide;
   }
 }
 
@@ -25,6 +25,14 @@ h4,
 h5,
 h6 {
   @apply font-bold;
+}
+
+p {
+  @apply text-gray-300
+}
+
+a {
+  @apply text-gray-300 font-bold
 }
 
 h1 {
@@ -40,11 +48,14 @@ li {
 }
 
 button {
-  @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white transition-all hover:font-semibold;
+  @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-gray-200 transition-all hover:font-semibold;
 }
 
 @layer utilities {
   .font-custom-body {
     font-family: "Roboto", sans-serif;
+  },
+  .text-glow {
+    text-shadow: rgb(212, 212, 212) 0px 0px 10px;
   }
 }

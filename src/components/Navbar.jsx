@@ -35,16 +35,15 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] px-3 bg-[#ecf0f3]"
-          : "fixed w-full h-20 z-[100] px-3 bg-transparent"
+          ? "fixed w-full transition-all py-4 shadow-xl z-[100] px-3 bg-[#121212] border-b border-gray-800"
+          : "fixed w-full transition-all py-10 z-[100] px-3 bg-transparent border-b border-transparent"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="flex gap-4 items-center">
           <a href="#">
-            <div className="text-lg">
-              <span className="text-[#5651e5] font-bold">Alex</span>
-              <span className="font-bold text-gray-600">Dev</span>
+            <div className="text-lg hover:text-glow">
+              Alexei Vorobev
             </div>
           </a>
           <LanguageSwitcher />
@@ -52,27 +51,22 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <a href="#">
-              <li className="ml-10 text-sm border-b border-[gray] border-opacity-0 uppercase hover:border-opacity-50">
+              <li className="ml-8 text-md hover:text-glow">
                 {t("navbar.home")}
               </li>
             </a>
             <a href="#about">
-              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-8 text-md hover:text-glow">
                 {t("navbar.about")}
               </li>
             </a>
-            <a href="#skills">
-              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
-                {t("navbar.skills")}
-              </li>
-            </a>
             <a href="#projects">
-              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-8 text-md hover:text-glow">
                 {t("navbar.projects")}
               </li>
             </a>
             <a href="#contact">
-              <li className="ml-6 text-sm border-b border-opacity-0 border-[gray] uppercase hover:border-opacity-50">
+              <li className="ml-8 text-md hover:text-glow">
                 {t("navbar.contact")}
               </li>
             </a>

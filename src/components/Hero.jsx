@@ -17,31 +17,13 @@ const Hero = () => {
           <p className="text-sm font-bold italic text-gray-600">
             {t("hero.photo_sub")}
           </p>
-          <h1 className="py-4 text-gray-700">
+          <h1 className="py-4 text-gray-300">
             {t("hero.hello_1")}{" "}
             <span className="text-[#5651e5]">{t("hero.name")}</span>
           </h1>
-          <h1 className="py-4 text-gray-700">{t("hero.hello_2")}</h1>
+          <h1 className="py-4 text-gray-300">{t("hero.hello_2")}</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">{t("hero.p")}</p>
-          <div className="flex items-center justify-center gap-4 m-auto py-4">
-           
-            <a href="https://github.com/AlexeiVorobev" target="_blank">
-              <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiFillGithub />
-              </div>
-            </a>
-            <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiFillLinkedin />
-            </div>
-            <a href="mailto:alexeivorobev1@gmail.com">
-              <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiFillMail />
-              </div>
-            </a>
-            <div className="rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonFill />
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
