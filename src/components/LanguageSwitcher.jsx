@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
     <div >
       <select
       value={storedLanguage}
-        className="bg-transparent cursor-pointer hover:text-glow"
+        className="bg-transparent cursor-pointer text-gray-350 hover:text-glow text-gray-300"
         onChange={(e) => {
           handleChangeLanguage(e.target.value);
         }}

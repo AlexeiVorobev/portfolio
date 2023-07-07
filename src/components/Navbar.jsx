@@ -35,7 +35,7 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full transition-all py-4 shadow-xl z-[100] px-3 bg-[#121212] border-b border-gray-800"
+          ? "fixed w-full transition-all py-4 shadow-xl z-[100] px-3 bg-[#121212] border-b border-gray-900"
           : "fixed w-full transition-all py-10 z-[100] px-3 bg-transparent border-b border-transparent"
       }
     >

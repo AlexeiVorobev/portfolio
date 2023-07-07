@@ -7,12 +7,12 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contacts",
+    "contact": "Contact",
     "cta_1": "Let's build something legendary together"
   },
   "hero": {
     "photo_sub": "Let's build something legendary",
-    "hello_1": "Hi, I'm",
+    "hello": "Hi, I'm Alex A Full-stack Web Developer",
     "name": "Alex",
     "hello_2": "A Full-stack Web Developer",
     "p": "I'm a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
@@ -32,11 +32,7 @@
     "h":"What I've Built"
   },
   "contact": {
-    "h_1": "Let's Connect",
-    "name": "Alex",
-    "position": "Full-Stack Developer, Front-End Developer",
-    "p": "I'm open for new positions. Contact me and let's talk.",
-    "sub": "Connect with me"
+    "h_1": "Want to get in touch?"
   },
   "form": {
     "name": "Name",
