@@ -10,17 +10,19 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full lg:h-[100vh]"
+      className="max-w-[1240px] text-center h-[40vh] lg:h-[70vh] mx-auto"
       
     >
-      <div className="max-w-[1240px] flex flex-col justify-center m-auto px-2 h-full">
-        <h1 className="py-4 uppercase">{t("contact.h_1")}</h1>
+       <div className="border-t border-neutral-700 mb-4" />
+      <div className=" flex flex-col justify-center m-auto px-2 h-full">
+        <h1 className="py-4 uppercase">{t("contact.h")}</h1>
         <a href="mailto:alexvorobevv@gmail.com">
           <h2 className="font-light uppercase text-gray-400">
             alexvorobevv@gmail.com
           </h2>
         </a>
       </div>
+      
     </div>
   );
 };

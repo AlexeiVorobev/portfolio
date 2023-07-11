@@ -12,34 +12,26 @@
   },
   "hero": {
     "photo_sub": "Let's build something legendary",
-    "hello": "Hi, I'm Alex A Full-stack Web Developer",
+    "hello_1": "Hi, I'm ",
     "name": "Alex",
     "hello_2": "A Full-stack Web Developer",
-    "p": "I'm a full-stack web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
+    "p": "I'm a full-stack web developer specializing in building exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
   },
   "about": {
-    "h_1": "Who I Am",
-    "sub_1": "Welcome to my website!",
-    "p_1": "My name is Alex, and I enjoy creating beautiful and functional web applications! I specialize in Front-End development but I'm also capable of working on the Back-End. I'm proficient in HTML, CSS, and JavaScript, as well as popular frameworks like React and Redux.",
-    "p_2": "I also have the necessary skills to work with back-end technologies such as Node.js, Express, and databases, which allows me to create full-stack applications from start to finish. I am constantly learning and strive to use the most modern technologies in my projects.",
-    "p_3": "",
-    "checkout": "Checkout my latest projects"
+    "p": "Hi, I'm Alex, a passionate self-motivated web developer. I'm proficient with React, Express.js, and MongoDB. I've used my creativity and problem-solving skills to design and implement websites for clients."
   },
   "skills": {
     "h": "What I Can Do"
   },
   "projects": {
-    "h":"What I've Built"
+    "days": "Days is a full-stack journaling application. It features rich text formatting, adding tags to the notes and authenticating users.",
+    "store": "Alex Store is a Full-Stack clothing store built with React, Express, and MongoDB. The store allows users to browse, add, and remove items from a cart and add them to favourites.",
+    "portfolio": "Portfolio is a web application for my personal website, showcasing my skills and projects as a full-stack web developer.",
+    "technologies": "Technologies",
+    "demo": "Live Preview",
+    "code": "View Code"
   },
   "contact": {
-    "h_1": "Want to get in touch?"
-  },
-  "form": {
-    "name": "Name",
-    "phone": "Phone Number",
-    "email": "Email",
-    "subject": "Subject",
-    "message": "Message",
-    "button": "Send"
+    "h": "Want to get in touch?"
   }
 }

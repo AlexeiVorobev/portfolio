@@ -9,7 +9,9 @@ import {
 const Footer = () => {
   return (
     <footer className="py-8">
+
       <div className="container mx-auto px-4">
+      <div className="border-t border-neutral-700 mb-4" />
         <div className="flex flex-col md:flex-row items-center text-center md:text-left justify-between">
           <div className="text-gray-100">
             <h4 className="text-lg font-bold text-gray-350">Alexei Vorobev</h4>
@@ -29,11 +31,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-4 border-t border-gray-700 pt-4 text-sm text-gray-400 text-center md:text-left">
-          <p>
-            &copy; {new Date().getFullYear()} Alexei Vorobev. All rights
-            reserved.
-          </p>
+        <div className=" text-gray-400 text-center md:text-left">
+          <p className="text-sm">&copy; {new Date().getFullYear()}</p>
         </div>
       </div>
     </footer>

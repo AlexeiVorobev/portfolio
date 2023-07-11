@@ -35,16 +35,15 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full transition-all py-4 shadow-xl z-[100] px-3 bg-[#121212] border-b border-gray-900"
+          ? "fixed w-full transition-all py-4 shadow-xl z-[100] px-3 bg-[#121212] border-b border-neutral-900"
           : "fixed w-full transition-all py-10 z-[100] px-3 bg-transparent border-b border-transparent"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="flex gap-4 items-center">
           <a href="#">
-            <div className="text-lg hover:text-glow">
-              Alexei Vorobev
-            </div>
+            {/* <div className="text-lg hover:text-glow">Alexei Vorobev</div> */}
+            <div className="text-lg hover:text-glow"><span className="tracking-tight">AV</span> studio</div>
           </a>
           <LanguageSwitcher />
         </div>
@@ -92,23 +91,22 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-7 ease-in duration-500"
+              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#2b2b2b] p-7 ease-in duration-500"
               : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-7 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
               <a href="#">
-                <div onClick={() => setNav(false)} className="text-lg">
-                  <span className="text-[#5651e5] font-bold">Alex</span>
-                  <span className="font-bold text-gray-600">Dev</span>
+                <div
+                  onClick={() => setNav(false)}
+                  className="text-lg hover:text-glow"
+                >
+                  Alexei Vorobev
                 </div>
               </a>
-              <div
-                onClick={handleNav}
-                className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
-              >
-                <AiOutlineClose />
+              <div onClick={handleNav} className="p-3 cursor-pointer">
+                <AiOutlineClose size={22} />
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
@@ -127,11 +125,6 @@ const Navbar = () => {
                   {t("navbar.about")}
                 </li>
               </a>
-              <a href="#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  {t("navbar.skills")}
-                </li>
-              </a>
               <a href="#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {t("navbar.projects")}
@@ -144,24 +137,23 @@ const Navbar = () => {
               </a>
             </ul>
             <div className="pt-40 ">
-              <p className="uppercase tracking-widest text-[#5651e5]">
-                {t("navbar.connect")}
-              </p>
-
-              <div className="flex items-center justify-start gap-4 my-4 w-full sm:w-[80%]">
+              <div className="text-neutral-300">
+                <h4 className="text-md font-bold text-gray-350">
+                  Alexei Vorobev
+                </h4>
+                <p className="text-sm">Full-Stack Web Developer</p>
+              </div>
+              <div className="flex items-center justify-start gap-7 my-4 w-full sm:w-[80%]">
                 <a href="https://github.com/AlexeiVorobev" target="_blank">
-                  <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiFillGithub />
                   </div>
                 </a>
-                <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiFillLinkedin />
                 </div>
-                <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiFillMail />
-                </div>
-                <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonFill />
                 </div>
               </div>
             </div>

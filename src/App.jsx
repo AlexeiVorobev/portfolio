@@ -14,9 +14,9 @@ function App() {
       <About />
       <Projects />
       <div
-        style={{
-          background: "linear-gradient(to right, #1d1d26 0%, #090909 100%)",
-        }}
+        // style={{
+        //   background: "linear-gradient(to right, #1d1d26 0%, #16151f 100%)",
+        // }}
       >
         <Contact />
         <Footer />
