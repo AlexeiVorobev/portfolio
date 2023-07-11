@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <ellipse
+       style="fill:#333333;stroke-width:0.0279379"
+       id="circle341"
+       cx="6.3529334"
+       cy="6.355093"
+       rx="6.3288541"
+       ry="6.3243356" />
+    <g
+       aria-label="A"
+       id="text63"
+       style="font-size:10.849px;fill:#cccccc;stroke-width:1.08126"
+       transform="matrix(0.68435593,0,0,0.68435593,0.01634046,2.1326379)">
+      <path
+         d="m 2.2423263,9.8754473 3.4174349,-7.5943 h 1.388672 l 3.4282838,7.5943 H 9.0012532 l -2.940079,-6.845719 h 0.564148 l -2.9292299,6.845719 z m 1.573105,-1.757538 0.379715,-1.106598 h 4.1009219 l 0.379715,1.106598 z"
+         style="font-weight:600;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';fill:#cccccc"
+         id="path844" />
+    </g>
+    <g
+       aria-label="V"
+       id="text279-2-0"
+       style="font-size:2.91277px;fill:#808080;stroke-width:0.0303412"
+       transform="matrix(2.560135,0,0,2.560135,-36.01088,-13.021592)">
+      <path
+         d="m 17.196646,8.5600195 -0.891307,-2.038939 h 0.4107 l 0.795186,1.8437834 h -0.235934 l 0.803925,-1.8437834 h 0.37866 l -0.888395,2.038939 z"
+         style="font-weight:600;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';fill:#808080"
+         id="path303" />
+    </g>
+  </g>
+</svg>
