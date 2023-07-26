@@ -15,11 +15,11 @@ const Contact = () => {
     >
        <div className="border-t border-neutral-700 mb-4" />
       <div className=" flex flex-col justify-center m-auto px-2 h-full">
-        <h1 className="py-4 uppercase">{t("contact.h")}</h1>
+        <h2 className="py-4 uppercase">{t("contact.h")}</h2>
         <a href="mailto:alexvorobevv@gmail.com">
-          <h2 className="font-light uppercase text-gray-400">
+          <h3 className="font-light uppercase text-gray-400">
             alexvorobevv@gmail.com
-          </h2>
+          </h3>
         </a>
       </div>
       

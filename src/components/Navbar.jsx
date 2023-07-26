@@ -43,7 +43,8 @@ const Navbar = () => {
         <div className="flex gap-4 items-center">
           <a href="#">
             {/* <div className="text-lg hover:text-glow">Alexei Vorobev</div> */}
-            <div className="text-lg hover:text-glow"><span className="tracking-tight">AV</span> studio</div>
+            {/* <div className="text-lg hover:text-glow"><span className="tracking-tight">AV</span> studio</div> */}
+            <div className="text-lg hover:text-glow"><span className="">AlexDev</span></div>
           </a>
           <LanguageSwitcher />
         </div>
@@ -98,12 +99,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <a href="#">
-                <div
-                  onClick={() => setNav(false)}
-                  className="text-lg hover:text-glow"
-                >
-                  Alexei Vorobev
-                </div>
+              <div className="text-lg hover:text-glow"><span className="">AlexDev</span></div>
               </a>
               <div onClick={handleNav} className="p-3 cursor-pointer">
                 <AiOutlineClose size={22} />

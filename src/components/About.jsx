@@ -15,6 +15,12 @@ const About = () => {
               <p className="text-xl text-[#bebebe] my-8">
                 {t("about.p")}
               </p>
+              <p className="text-xl text-[#bebebe] my-8">
+                {t("about.p2")}
+              </p>
+              <p className="text-xl text-[#bebebe] my-8">
+                {t("about.p3")}
+              </p>
               <div className="grid mt-4 grid-cols-2">
                 <div>
                   <h3 className="text-[1.5rem]">Front End</h3>
@@ -40,7 +46,7 @@ const About = () => {
             <div className="w-full h-auto m-auto flex items-center justify-center ease-in duration-300">
               <img
                 className=""
-                src="https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_yO9RrR6SnCrwhNbe-2173-NOC.jpg?itok=cHyyR9-8"
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
                 alt=""
               />
             </div>
