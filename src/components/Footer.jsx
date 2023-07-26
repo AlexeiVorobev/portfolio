@@ -18,17 +18,19 @@ const Footer = () => {
             <p className="text-sm">Full-Stack Web Developer</p>
           </div>
           <div className="flex items-center justify-center md:justify-end my-4 w-full sm:w-[80%]">
-            <a href="https://github.com/AlexeiVorobev" target="_blank">
+            <a href="https://github.com/alexvorobevv" target="_blank">
               <div className="rounded-full text-xl text-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <AiFillGithub />
               </div>
             </a>
-            <div className="rounded-full text-xl text-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+            {/* <div className="rounded-full text-xl text-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
               <AiFillLinkedin />
-            </div>
-            <div className="rounded-full text-xl text-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiFillMail />
-            </div>
+            </div> */}
+            <a href="mailto:alexvorobevv@gmai.com">
+              <div className="rounded-full text-xl text-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiFillMail />
+              </div>
+            </a>
           </div>
         </div>
         <div className=" text-gray-400 text-center md:text-left">

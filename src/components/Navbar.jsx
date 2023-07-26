@@ -140,17 +140,19 @@ const Navbar = () => {
                 <p className="text-sm">Full-Stack Web Developer</p>
               </div>
               <div className="flex items-center justify-start gap-7 my-4 w-full sm:w-[80%]">
-                <a href="https://github.com/AlexeiVorobev" target="_blank">
+                <a href="https://github.com/alexvorobevv" target="_blank">
                   <div className="cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiFillGithub />
                   </div>
                 </a>
-                <div className="cursor-pointer hover:scale-105 ease-in duration-300">
+                {/* <div className="cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiFillLinkedin />
-                </div>
-                <div className="cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiFillMail />
-                </div>
+                </div> */}
+                <a href="mailto:alexvorobevv@gmai.com">
+                  <div className="cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiFillMail />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
