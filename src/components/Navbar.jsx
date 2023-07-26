@@ -44,7 +44,7 @@ const Navbar = () => {
           <a href="#">
             {/* <div className="text-lg hover:text-glow">Alexei Vorobev</div> */}
             {/* <div className="text-lg hover:text-glow"><span className="tracking-tight">AV</span> studio</div> */}
-            <div className="text-lg hover:text-glow"><span className="">AlexDev</span></div>
+            <div className="text-lg hover:text-glow"><span className="">Alex Develops</span></div>
           </a>
           <LanguageSwitcher />
         </div>
