@@ -32,13 +32,13 @@ const Projects = () => {
           code="https://github.com/alexvorobevv/alex-store"
         />
         <ProjectItem
-          title="Portfolio"
-          sub="Personal website"
-          img={personalImg}
-          desc={t("projects.portfolio")}
-          stack="React, tailwind CSS"
-          demo="https://alexvorobevv.github.io/portfolio"
-          code="https://github.com/alexvorobevv/portfolio"
+          title="Doers"
+          sub="Todo List"
+          img={doersImg}
+          desc={t("projects.doers")}
+          stack="HTML, CSS, JavaScript"
+          demo="https://alexvorobevv.github.io/doers/dist"
+          code="https://github.com/alexvorobevv/doers"
         />
       </div>
       

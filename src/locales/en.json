@@ -18,7 +18,9 @@
     "p": "I'm a full-stack web developer specializing in building exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
   },
   "about": {
-    "p": "Hi, I'm Alex, a passionate self-motivated web developer. I'm proficient with React, Express.js, and MongoDB. I've used my creativity and problem-solving skills to design and implement websites for clients."
+    "p": "Hi, I'm Alex, a passionate self-motivated web developer. I'm proficient with React, Express.js, and MongoDB. I've used my creativity and problem-solving skills to design and implement websites for clients.",
+    "p2": "",
+    "p3": ""
   },
   "skills": {
     "h": "What I Can Do"
@@ -27,6 +29,7 @@
     "days": "Days is a full-stack journaling application. It features rich text formatting, adding tags to the notes and authenticating users.",
     "store": "Alex Store is a Full-Stack clothing store built with React, Express, and MongoDB. The store allows users to browse, add, and remove items from a cart and add them to favourites.",
     "portfolio": "Portfolio is a web application for my personal website, showcasing my skills and projects as a full-stack web developer.",
+    "doers": "This is a simple, responsive ToDo List app created using HTML, CSS, and JavaScript. The app allows users to create projects and tasks, set task priorities and due dates, and mark tasks as completed.",
     "technologies": "Technologies",
     "demo": "Live Preview",
     "code": "View Code"
