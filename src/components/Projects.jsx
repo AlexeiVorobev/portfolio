@@ -19,8 +19,8 @@ const Projects = () => {
           img={daysImg}
           desc={t("projects.days")}
           stack="React, Redux, Express, MongoDB, CSS"
-          demo="https://alexvorobevv.github.io/days"
-          code="https://github.com/alexvorobevv/days"
+          demo="https://alexeidevelops.github.io/days"
+          code="https://github.com/alexeidevelops/days"
         />
         <ProjectItem
           title="Alex Store"
@@ -28,8 +28,8 @@ const Projects = () => {
           img={storeImg}
           desc={t("projects.store")}
           stack="React, Express, MongoDB, Styled Components"
-          demo="https://alexvorobevv.github.io/alex-store"
-          code="https://github.com/alexvorobevv/alex-store"
+          demo="https://alexeidevelops.github.io/alex-store"
+          code="https://github.com/alexeidevelops/alex-store"
         />
         <ProjectItem
           title="Doers"
@@ -37,8 +37,8 @@ const Projects = () => {
           img={doersImg}
           desc={t("projects.doers")}
           stack="HTML, CSS, JavaScript"
-          demo="https://alexvorobevv.github.io/doers/dist"
-          code="https://github.com/alexvorobevv/doers"
+          demo="https://alexeidevelops.github.io/doers/dist"
+          code="https://github.com/alexeidevelops/doers"
         />
       </div>
       
