@@ -13,7 +13,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#121212] text-gray-200 tracking-wide;
+    @apply bg-[#000000] text-gray-200 tracking-wide;
   }
 }
 

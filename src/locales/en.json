@@ -11,11 +11,8 @@
     "cta_1": "Let's build something legendary together"
   },
   "hero": {
-    "photo_sub": "Let's build something legendary",
-    "hello_1": "Hi, I'm ",
-    "name": "Alex",
-    "hello_2": "A Full-stack Web Developer",
-    "p": "I'm a full-stack web developer specializing in building exceptional digital experiences. Currently I'm focused on building responsive full stack web applications."
+    "hello": "Hi, I'm Alex — Fullstack Web-developer",
+    "button": "Check out projects"
   },
   "about": {
     "p": "Hi, I'm Alex, a passionate self-motivated web developer. I'm proficient with React, Express.js, and MongoDB. I've used my creativity and problem-solving skills to design and implement websites for clients.",
